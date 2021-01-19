@@ -8,7 +8,7 @@
 int main(int argc, char *argv[]) {
 	if(argc<5) {
 		printf("Usage: %s DATA DIST SORT NUM\n", argv[0]);
-		exit(0);
+		exit(-1);
 	}
 
 	FILE *data = fopen(argv[1], "r");	
